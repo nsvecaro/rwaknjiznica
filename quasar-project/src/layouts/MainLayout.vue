@@ -58,43 +58,43 @@ const linksList = [
     title: 'Naslovnica',
     caption: 'Početna stranica',
     icon: 'home',
-    link: '/index'
+    link: '#/'
   },
   {
     title: 'Popis knjiga',
     caption: 'Popis svih knjiga',
     icon: 'book',
-    link: '/popisKnjiga'
+    link: '#/popisKnjiga'
   },
   {
     title: 'Pretraživanje',
     caption: 'Alat za pretraživanje',
     icon: 'search',
-    link: '/traziKnjigu'
+    link: '#/traziKnjigu'
   },
   {
     title: 'O nama',
     caption: 'Nešto o nama',
     icon: 'info',
-    link: '/oNama'
+    link: '#/oNama'
   },
   {
     title: 'Lokacija',
     caption: 'Lokacija Gradske Knjižnice Pula',
     icon: 'location_on',
-    link: '/lokacija'
+    link: '#/lokacija'
   },
   {
     title: 'Login',
     caption: 'Ulogirajte se u svoj račun',
     icon: 'login',
-    link: '/login'
+    link: '#/login'
   },
   {
     title: 'Registracija',
     caption: 'Izradite svoj račun',
     icon: 'person_add',
-    link: '/registracija'
+    link: '#/registracija'
   }
 ]
 

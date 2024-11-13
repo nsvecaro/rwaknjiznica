@@ -1,14 +1,17 @@
 <template>
   <q-page padding>
-    <q-card dark bordered class="bg-grey-9 my-card"></q-card>
-      <q-card-section>
-        <q-img src=" https://www.rijeka.hr/wp-content/uploads/2023/12/Nova-knji%C5%BEnica-4-901x600.jpg ">
-          <div class="text-h3 text-weight-bolder absolute-bottom text-center">O nama</div>
-        </q-img>
-      </q-card-section>
-      <q-card-section class="text-h4 text-justify">
-        {{ o_nama }}
-      </q-card-section>
+    <q-card dark bordered class="bg-grey-9 my-card">
+<q-card-section>
+  <q-img src=" https://www.rijeka.hr/wp-content/uploads/2023/12/Nova-knji%C5%BEnica-4-901x600.jpg ">
+    <div class="text-h3 text-weight-bolder absolute-bottom text-center">O nama</div>
+  </q-img>
+</q-card-section>
+<q-card-section class="text-h4 text-justify">
+  {{ o_nama }}
+</q-card-section>
+</q-card>
+
+
 
     <!-- content -->
      
@@ -30,6 +33,6 @@ o_nama: 'Gradska knjižnica Rijeka središnja je narodna knjižnica grada Rijeke
 
 <style lang="sass" scoped>
 .my-card
-width: 100%
+  width: 100%
 </style>
 
