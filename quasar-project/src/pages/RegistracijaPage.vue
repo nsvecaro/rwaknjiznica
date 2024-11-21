@@ -1,6 +1,6 @@
 <template>
   <q-page padding>
-    <q-card>
+    <q-card class="registercard">
       <q-card-section>
         <div class="text-h5">Registracija</div>
       </q-card-section>
@@ -49,6 +49,14 @@
     </q-card>
   </q-page>
 </template>
+
+<style>
+.registercard{
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+}
+</style>
 
 <script>
 import { ref } from 'vue';

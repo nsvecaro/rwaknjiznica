@@ -1,6 +1,6 @@
 <template>
   <q-page padding>
-    <q-card>
+    <q-card class="logincard">
       <q-card-section>
         <div class="text-h5">Prijava</div>
       </q-card-section>
@@ -33,6 +33,16 @@
     </q-card>
   </q-page>
 </template>
+
+<style>
+.logincard{
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+
+</style>
 
 <script>
 import { ref } from 'vue';

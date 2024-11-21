@@ -1,6 +1,6 @@
 <template>
   <q-page padding>
-    <q-card>
+    <q-card class="knjigecard">
       <q-card-section>
         <div class="text-h5">Popis svih knjiga</div>
       </q-card-section>
@@ -15,6 +15,14 @@
     </q-card>
   </q-page>
 </template>
+
+<style>
+.knjigecard{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+</style>
 
 <script>
 export default {

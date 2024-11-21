@@ -1,6 +1,6 @@
 <template>
   <q-page padding>
-    <q-card>
+    <q-card class="searchcard">
       <q-card-section>
         <div class="text-h5">Pretraga knjige</div>
       </q-card-section>
@@ -30,6 +30,15 @@
     </q-card>
   </q-page>
 </template>
+
+
+<style>
+.searchcard{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px;
+}
+</style>
 
 <script>
 import { ref, computed } from 'vue';
