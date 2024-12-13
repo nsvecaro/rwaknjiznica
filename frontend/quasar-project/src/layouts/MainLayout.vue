@@ -95,6 +95,12 @@ const linksList = [
     caption: 'Izradite svoj račun',
     icon: 'person_add',
     link: '#/registracija'
+  },
+  {
+    title:'Baza knjiga',
+    caption:'Provjerite bazu knjiga',
+    icon:'library_books',
+    link:'#/popisknjigabaza'
   }
 ]
 
